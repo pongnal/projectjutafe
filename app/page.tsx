@@ -59,6 +59,40 @@ export default function Home() {
             Documentation
           </a>
         </div>
+        <div className="grid w-full justify-center grid-cols-1 gap-4 mt-5 xs:grid-cols-2 sm:grid-cols-3">
+          <div>
+            <h1>Box 1</h1>
+            <p>This is a paragraph of box 1, text will be here and here</p>
+            <div className="grid justify-end"><button className="bg-blue-500 text-white p-2 rounded-md h-auto w-auto">Click me</button></div>
+          </div>
+          <div>
+            <h1>Box 2</h1>
+            <p>This is a paragraph of box 2, text will be here and here</p>
+            <div className="grid justify-end"><button className="bg-blue-500 text-white p-2 rounded-md h-auto w-auto">Click me</button></div>
+          </div>
+          <div className="">
+            <h1>Box 3</h1>
+            <p>This is a paragraph of box 3, text will be here and here</p>
+            <div className="grid justify-end"><button className="bg-blue-500 text-white p-2 rounded-md h-auto w-auto">Click me</button></div>
+          </div>
+          <div className="">
+            <h1>Box 4</h1>
+            <p>This is a paragraph of box 4, text will be here and here</p>
+            <div className="grid justify-end"><button className="bg-blue-500 text-white p-2 rounded-md h-auto w-auto">Click me</button></div>
+          </div>
+          <div className="">
+            <h1>Box 5</h1>
+            <p>This is a paragraph of box 5, text will be here and here</p>
+            <div className="grid justify-end"><button className="bg-blue-500 text-white p-2 rounded-md h-auto w-auto">Click me</button></div>
+          </div>
+          <div className="">
+            <h1>Box 6</h1>
+            <p>This is a paragraph of box 6, text will be here and here</p>
+            <div className="grid justify-end"><button className="bg-blue-500 text-white p-2 rounded-md h-auto w-auto">Click me</button></div>
+          </div>
+
+
+        </div>
       </main>
     </div>
   );
